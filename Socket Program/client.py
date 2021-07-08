@@ -3,7 +3,7 @@ import os
 import subprocess
 
 s=socket.socket()
-host="192.168.100.16"
+host="Static_ip"
 port = 9999
 s.connect((host,port))
 while True:
